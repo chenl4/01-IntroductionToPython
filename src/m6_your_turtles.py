@@ -31,3 +31,8 @@ import rosegraphics as rg
 
 window = rg.TurtleWindow()
 
+red_turtle = rg.SimpleTurtle('turtle')
+red_turtle.pen = rg.Pen('red',6)
+red_turtle.speed = 30
+
+size = 300

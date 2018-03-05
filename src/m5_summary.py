@@ -34,7 +34,7 @@ window = rg.TurtleWindow()
 
 red_turtle = rg.SimpleTurtle('turtle')
 red_turtle.pen = rg.Pen('red', 3)
-red_turtle.speed = 20  # Fast
+red_turtle.speed = 20
 
 size = 300
 
@@ -45,7 +45,7 @@ for k in range(11):
     red_turtle.pen_up()
     red_turtle.right(45)
     red_turtle.forward(20)
-    red_turtle.left(45)
+    red_turtle.left(45 + k)
 
     red_turtle.pen_down()
     size = size - 30
